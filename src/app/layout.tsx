@@ -19,14 +19,12 @@ export const metadata: Metadata = {
   description: 'A redesign of the Webpack website',
 };
 
-const Layout: FC<PropsWithChildren> = ({ children }) => {
-  return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <ThemeProvider>{children}</ThemeProvider>
-      </body>
-    </html>
-  );
-};
+const Layout: FC<PropsWithChildren> = ({ children }) => (
+  <html lang="en">
+    <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <ThemeProvider>{children}</ThemeProvider>
+    </body>
+  </html>
+);
 
 export default Layout;

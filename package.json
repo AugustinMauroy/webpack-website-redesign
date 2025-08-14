@@ -8,7 +8,6 @@
     "biome:lint": "biome lint --write",
     "build": "next build",
     "dev": "next dev",
-    "postbuild": "node ./scripts/postbuild.js",
     "pre-commit": "biome check --write && node --run types:check",
     "start": "next start",
     "storybook": "storybook dev -p 6006 --quiet --no-open",

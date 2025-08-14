@@ -14,3 +14,6 @@ Components:
 - `Select`
 - `CrossLink`
 - `AuthorsList` dependent on `Avatar`
+
+Other:
+- OpenjsF footer

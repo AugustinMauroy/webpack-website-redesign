@@ -24,7 +24,7 @@ export const NavigationItem: FC<NavigationItemProps> = ({
       {...props}
       href={href as string}
       className={classNames(
-        'text-gray-900 dark:text-gray-100 px-2 py-1 rounded hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors duration-200 flex items-center justify-center w-fit',
+        'text-gray-900 dark:text-gray-100 px-4 py-2 rounded hover:bg-slate-300 dark:hover:bg-slate-700 transition-colors duration-200 flex items-center justify-center w-fit',
         className,
       )}
       activeClassName="!bg-blue-500 text-white"

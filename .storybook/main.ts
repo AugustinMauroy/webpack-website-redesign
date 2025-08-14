@@ -7,6 +7,7 @@ const config: StorybookConfig = {
     disableTelemetry: true,
     disableWhatsNewNotifications: true,
   },
+  logLevel: 'error',
   docs: { docsMode: false },
   framework: {
     name: '@storybook/nextjs',
