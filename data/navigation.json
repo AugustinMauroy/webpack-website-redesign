@@ -1,0 +1,42 @@
+{
+  "header": {
+    "links": [
+      {
+        "label": "Documentation",
+        "href": "/concepts"
+      },
+      {
+        "label": "Contribute",
+        "href": "/contribute"
+      },
+      {
+        "label": "Blog",
+        "href": "/blog"
+      }
+    ]
+  },
+  "footer": {
+    "links": [
+      {
+        "label": "Privacy Policy",
+        "href": "https://privacy-policy.openjsf.org/"
+      },
+      {
+        "label": "Changelog",
+        "href": "https://github.com/webpack/webpack/releases"
+      },
+      {
+        "label": "Discord",
+        "href": "https://discord.com/invite/8WWf6F7p"
+      },
+      {
+        "label": "GitHub",
+        "href": "https://github.com/webpack/webpack"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/webpack"
+      }
+    ]
+  }
+}
