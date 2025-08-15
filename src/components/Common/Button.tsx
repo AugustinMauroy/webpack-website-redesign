@@ -26,5 +26,3 @@ export const Button: FC<ButtonProps> = ({
     </Comp>
   );
 };
-
-export default Button;

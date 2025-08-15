@@ -17,3 +17,7 @@ Components:
 
 Other:
 - OpenjsF footer
+
+Lib:
+- `rss` feed generator
+- `sitemap` generator

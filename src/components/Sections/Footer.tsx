@@ -13,7 +13,7 @@ const ICON_MAP: Record<string, FC> = {
 
 export const Footer: FC = () => (
   <footer className="bg-slate-100 dark:bg-slate-900 border-t-2 border-slate-200 dark:border-slate-800 py-6 mt-12">
-    <nav className="flex flex-col md:flex-row items-center justify-center px-2">
+    <nav className="flex flex-col md:flex-row items-center justify-center px-1.5">
       <ul className="flex flex-wrap items-center justify-center md:justify-start space-x-6 mb-2 md:mb-0">
         {navigation.footer.links.map((link) => (
           <li key={link.href}>

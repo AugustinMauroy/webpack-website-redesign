@@ -52,6 +52,12 @@
       "style": {
         "noDescendingSpecificity": "off",
         "useNodeAssertStrict": "error"
+      },
+      "suspicious": {
+        "noUnknownAtRules": "off"
+      },
+      "correctness": {
+        "useUniqueElementIds": "info"
       }
     }
   },

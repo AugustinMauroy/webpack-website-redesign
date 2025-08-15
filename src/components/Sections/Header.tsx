@@ -12,11 +12,11 @@ export const Header: FC = () => {
 
   return (
     <header className="bg-white dark:bg-gray-900 shadow-md border-b-2 border-gray-200 dark:border-gray-800">
-      <nav className="container mx-auto flex items-center justify-between p-2">
+      <nav className="container mx-auto flex items-center justify-between p-1.5">
         <ul className="flex items-center space-x-6">
           <li>
             <Link href="/">
-              <Logo height={60} />
+              <Logo height={55} />
             </Link>
           </li>
           {navigation.header.links.map((link) => (
