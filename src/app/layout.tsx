@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 };
 
 const Layout: FC<PropsWithChildren> = ({ children }) => (
-  <html lang="en">
+  <html lang="en" suppressHydrationWarning>
     <body className={`${geistSans.variable} ${geistMono.variable}`}>
       <ThemeProvider>{children}</ThemeProvider>
     </body>
