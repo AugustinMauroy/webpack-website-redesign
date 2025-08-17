@@ -23,22 +23,20 @@ const BlogPage: FC = async () => {
         </Button>
       </header>
       <section className="space-y-6 divide-y divide-gray-200 dark:divide-gray-700">
-        {metaData
-          .filter((post) => post !== null)
-          .map((post) => (
-            <article key={post.slug}>
-              <h2 className="text-2xl font-semibold">{post.title}</h2>
-              <p className="text-sm text-gray-500 dark:text-gray-400">
-                {post.date}
-              </p>
-              <Link
-                href={`/blog/${post.slug}`}
-                className="text-blue-600 hover:underline"
-              >
-                Read more
-              </Link>
-            </article>
-          ))}
+        {metaData.map((post) => (
+          <article key={post.slug}>
+            <h2 className="text-2xl font-semibold">{post.title}</h2>
+            <p className="text-sm text-gray-500 dark:text-gray-400">
+              {post.date}
+            </p>
+            <Link
+              href={`/blog/${post.slug}`}
+              className="text-blue-600 hover:underline"
+            >
+              Read more
+            </Link>
+          </article>
+        ))}
       </section>
     </BaseLayout>
   );

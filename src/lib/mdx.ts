@@ -3,6 +3,7 @@ import { compileMDX as _compileMDX } from 'next-mdx-remote/rsc';
 import type { ComponentProps } from 'react';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypeSlug from 'rehype-slug';
+import remarkGfm from 'remark-gfm';
 
 const defaultMdxComponents = {};
 
@@ -32,6 +33,7 @@ export const compileMDX = async <TFrontmatter>({
           // Automatically add anchor links to headings (H1, ...)
           [rehypeAutolinkHeadings, { behavior: 'wrap' }],
         ],
+        remarkPlugins: [remarkGfm],
       },
       parseFrontmatter,
     },

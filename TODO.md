@@ -21,3 +21,7 @@ Other:
 Lib:
 - `rss` feed generator
 - `sitemap` generator
+- `mdx.ts` get off `next-mdx-remote`
+- `content.ts` add more utility functions for `generateStaticParams`
+ - `docs/[version]/[...slugs]`
+ - `foo/[...slugs]``

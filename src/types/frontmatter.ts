@@ -3,3 +3,8 @@ export type BlogFrontmatter = {
   date: string;
   contributors: string[];
 };
+
+export type AboutFrontmatter = {
+  title: string;
+  contributors: string[];
+};
