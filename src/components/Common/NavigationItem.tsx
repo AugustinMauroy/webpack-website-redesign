@@ -27,7 +27,7 @@ export const NavigationItem: FC<NavigationItemProps> = ({
         'text-gray-900 dark:text-gray-100 px-2.5 py-1.5 font-bold text-sm rounded hover:bg-slate-300 dark:hover:bg-slate-700 transition-colors duration-200 flex items-center justify-center w-fit',
         className,
       )}
-      activeClassName="!bg-blue-500 text-white"
+      activeClassName={href ? '!bg-blue-500 text-white' : undefined}
       type={href ? undefined : 'button'}
     >
       {children}
